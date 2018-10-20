@@ -10,7 +10,7 @@ services:
     networks:
       - nano-internal
   server:
-    image: nano-express:1.0
+    image: nano-express:1.1
     build: ./server
     restart: always
     depends_on:
